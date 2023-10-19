@@ -1,13 +1,106 @@
 body {
+  overflow-x: hidden;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding-top: 62px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: light !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 10000;
+}
+
+:root {
+  --mainGreenColor: #4fa94d;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.main-transition {
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+.nav-zindex {
+  z-index: 10;
+}
+
+.nav-box-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000d2;
+  display: block;
+}
+
+.main-line-heightp {
+  line-height: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  position: relative;
+}
+
+.cartupdate {
+  background-color: #FFF;
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  h4 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+
+  .cartupdate {
+    background-color: #FFF;
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h4 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+
+  .cartupdate {
+    background-color: #FFF;
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+  }
+
 }

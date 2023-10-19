@@ -1,0 +1,85 @@
+.productparent {
+    perspective: 200px;
+}
+
+.featproduct {
+    transform-style: preserve-3d;
+    perspective: 500px;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 1px 1px 5px #8888884b;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.featproduct:hover {
+    transform: translateZ(10px);
+    -webkit-transform: translateZ(10px);
+    -moz-transform: translateZ(10px);
+    -ms-transform: translateZ(10px);
+    -o-transform: translateZ(10px);
+}
+
+
+.addtowish {
+    opacity: 1;
+    padding: 10px;
+}
+
+/* 
+.featproduct:hover .addtowish {
+    opacity: 1;
+    left: -36px;
+} */
+
+
+.featproduct p {
+    color: #00000086;
+    letter-spacing: -1px;
+    padding: 5px;
+    margin-top: -15px;
+    border-bottom: 1px solid #cccccc62;
+}
+
+.productname {
+    letter-spacing: normal !important;
+    font-size: 10px;
+    background-color: #000;
+    color: #FFF;
+    width: fit-content;
+    padding: 5px 10px !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.addtocart {
+    font-size: 14px;
+    padding: 8px 15px;
+    width: 75%;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.addtocart:hover {
+    background-color: var(--mainGreenColor);
+    color: #FFF;
+}

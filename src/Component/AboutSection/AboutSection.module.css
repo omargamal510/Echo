@@ -1,0 +1,10 @@
+.headerspan {
+    font-size: 70px;
+    font-weight: bolder;
+    opacity: .1;
+    color: #ffffff69;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+}

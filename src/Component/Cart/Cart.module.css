@@ -1,0 +1,19 @@
+.cartitem {
+    background-color: #FFF;
+    border-bottom: 1px solid #EEE;
+}
+
+.cartdata {
+    margin: 10px;
+    background-color: #EEE;
+    padding: 20px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.cartdata span {
+    font-weight: lighter !important;
+}

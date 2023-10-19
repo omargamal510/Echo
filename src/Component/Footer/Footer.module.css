@@ -1,0 +1,11 @@
+.footer {
+
+    background: url('/public/footer.avif') center center no-repeat;
+    background-size: cover;
+
+}
+
+.footercontainer {
+    height: 100%;
+    background-color: #000000ee;
+}

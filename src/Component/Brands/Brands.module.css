@@ -1,0 +1,34 @@
+.brandparent {
+    perspective: 200px;
+}
+
+
+.brandbox {
+    box-shadow: 1px 1px 5px #8888884b;
+    cursor: pointer;
+    transition: all .3s linear;
+    -webkit-transition: all .3s lienar;
+    -moz-transition: all .3s lienar;
+    -ms-transition: all .3s lienar;
+    -o-transition: all .3s lienar;
+}
+
+
+.brandbox:hover {
+    transform: translateZ(10px);
+    -webkit-transform: translateZ(10px);
+    -moz-transform: translateZ(10px);
+    -ms-transform: translateZ(10px);
+    -o-transform: translateZ(10px);
+}
+
+.branddata {
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000093;
+
+}
